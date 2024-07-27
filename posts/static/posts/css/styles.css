@@ -1,0 +1,12 @@
+.post {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    transition: border-color 0.3s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+.post.visible {
+    opacity: 1;
+}
